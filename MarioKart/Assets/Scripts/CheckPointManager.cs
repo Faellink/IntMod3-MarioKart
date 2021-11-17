@@ -28,7 +28,7 @@ public class CheckPointManager : MonoBehaviour
         {
             if (cp == CheckPoints.One)
             {
-                if (gameController.numCheckPoint == 0 && gameController.numLapPlayer == 0) //
+                if (gameController.numCheckPoint == 0 && gameController.numLapPlayer == 0) // Se numero do checkpoint = 0 e numero de voltas = 0, inicia a volta e numero do checkpoint = 1
                 {
                     gameController.playerLapStarted = true;
                     gameController.numCheckPoint = 1;
